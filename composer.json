@@ -1,11 +1,11 @@
 {
-    "name": "preemstudio/laravel-labels",
+    "name": "preemstudio/laravel-labelable",
     "description": "A package to easily use labels with Laravel.",
     "license": "MIT",
     "keywords": [
         "PreemStudio",
         "laravel",
-        "laravel-labels"
+        "laravel-labelable"
     ],
     "authors": [
         {
@@ -14,7 +14,7 @@
             "role": "Developer"
         }
     ],
-    "homepage": "https://github.com/preemstudio/laravel-labels",
+    "homepage": "https://github.com/preemstudio/laravel-labelable",
     "require": {
         "php": "^8.1",
         "illuminate/contracts": "^10.0",

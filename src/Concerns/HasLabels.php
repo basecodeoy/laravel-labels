@@ -11,6 +11,6 @@ trait HasLabels
 {
     public function labels(): MorphMany
     {
-        return $this->morphMany(Config::get('laravel-labels.models.label'), 'labelable');
+        return $this->morphMany(Config::get('laravel-labelable.models.label'), 'labelable');
     }
 }

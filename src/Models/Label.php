@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Config;
 use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
 
-class Label extends Model
+final class Label extends Model
 {
     use HasSlug;
 
@@ -33,6 +33,6 @@ class Label extends Model
 
     public function getTable(): string
     {
-        return Config::get('laravel-labels.tables.labels');
+        return Config::get('laravel-labelable.tables.labels');
     }
 }

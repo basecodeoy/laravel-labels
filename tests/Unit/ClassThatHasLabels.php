@@ -7,7 +7,7 @@ namespace Tests\Unit;
 use Illuminate\Foundation\Auth\User;
 use PreemStudio\Labels\Concerns\HasLabels;
 
-class ClassThatHasLabels extends User
+final class ClassThatHasLabels extends User
 {
     use HasLabels;
 

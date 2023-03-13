@@ -11,7 +11,7 @@ class CreateLabelsTable extends Migration
 {
     public function up()
     {
-        Schema::create(Config::get('laravel-labels.tables.labels'), function (Blueprint $table) {
+        Schema::create(Config::get('laravel-labelable.tables.labels'), function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->morphs('labelable');
             $table->string('slug');
@@ -24,6 +24,6 @@ class CreateLabelsTable extends Migration
 
     public function down()
     {
-        Schema::dropIfExists(Config::get('laravel-labels.tables.labels'));
+        Schema::dropIfExists(Config::get('laravel-labelable.tables.labels'));
     }
 }
