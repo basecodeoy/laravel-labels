@@ -7,7 +7,7 @@ namespace Tests\Unit\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use PreemStudio\Labels\Models\Label;
-use Tests\Unit\ClassThatHasLabels;
+use Tests\Fixtures\ClassThatHasLabels;
 
 uses(RefreshDatabase::class);
 

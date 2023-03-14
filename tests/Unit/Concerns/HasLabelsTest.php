@@ -7,7 +7,7 @@ namespace Tests\Unit\Concerns;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Collection;
-use Tests\Unit\ClassThatHasLabels;
+use Tests\Fixtures\ClassThatHasLabels;
 
 uses(RefreshDatabase::class);
 
