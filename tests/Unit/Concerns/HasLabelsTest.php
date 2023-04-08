@@ -13,15 +13,15 @@ uses(RefreshDatabase::class);
 
 it('should morph to a labelable', function (): void {
     $user = ClassThatHasLabels::create([
-        'name'     => $this->faker->name,
-        'email'    => $this->faker->safeEmail,
+        'name' => $this->faker->name,
+        'email' => $this->faker->safeEmail,
         'password' => $this->faker->password,
     ]);
 
     $user->labels()->create([
-        'name'        => $this->faker->firstName,
+        'name' => $this->faker->firstName,
         'description' => $this->faker->paragraph,
-        'color'       => $this->faker->hexColor,
+        'color' => $this->faker->hexColor,
     ]);
 
     expect($user->labels())->toBeInstanceOf(MorphMany::class);
