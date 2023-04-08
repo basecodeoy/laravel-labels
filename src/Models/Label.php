@@ -33,6 +33,6 @@ final class Label extends Model
 
     public function getTable(): string
     {
-        return Config::get('labelable.tables.labels');
+        return Config::get('labelable.tables.labels', 'labels');
     }
 }

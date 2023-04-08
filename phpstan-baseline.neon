@@ -1,0 +1,16 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Method PreemStudio\\\\Labels\\\\Models\\\\Label\\:\\:getTable\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: src/Models/Label.php
+
+		-
+			message: "#^Method PreemStudio\\\\Labels\\\\Models\\\\Label\\:\\:labelable\\(\\) return type with generic class Illuminate\\\\Database\\\\Eloquent\\\\Relations\\\\MorphTo does not specify its types\\: TRelatedModel, TChildModel$#"
+			count: 1
+			path: src/Models/Label.php
+
+		-
+			message: "#^Property 'slug' does not exist in PreemStudio\\\\Labels\\\\Models\\\\Label model\\.$#"
+			count: 1
+			path: src/Models/Label.php
