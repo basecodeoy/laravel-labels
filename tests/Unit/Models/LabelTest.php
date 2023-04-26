@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Tests\Unit\Models;
 
+use BombenProdukt\Labels\Models\Label;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use BombenProdukt\Labels\Models\Label;
 use Tests\Fixtures\ClassThatHasLabels;
 
 uses(RefreshDatabase::class);

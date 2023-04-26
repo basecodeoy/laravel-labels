@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Tests\Fixtures;
 
-use Illuminate\Foundation\Auth\User;
 use BombenProdukt\Labels\Concerns\HasLabels;
+use Illuminate\Foundation\Auth\User;
 
 final class ClassThatHasLabels extends User
 {
