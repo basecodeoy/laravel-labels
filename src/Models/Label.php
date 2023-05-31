@@ -16,14 +16,14 @@ final class Label extends Model
 
     protected $fillable = ['name', 'description', 'color'];
 
-    public function labelable(): MorphTo
-    {
-        return $this->morphTo();
-    }
-
     public static function findByslug(string $slug): self
     {
         return self::where('slug', $slug)->firstOrFail();
+    }
+
+    public function labelable(): MorphTo
+    {
+        return $this->morphTo();
     }
 
     public function getSlugOptions(): SlugOptions
