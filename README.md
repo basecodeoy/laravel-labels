@@ -4,20 +4,6 @@
     </a>
 </p>
 
-<p align="center">
-    <a href="https://github.com/faustbrian/laravel-labelable/actions">
-        <img src="https://badge.sh/github/check-runs/BombenProdukt/laravel-labelable" alt="Checks" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/laravel-labelable">
-        <img src="https://badge.sh/packagist/downloads/BombenProdukt/laravel-labelable" alt="Downloads" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/laravel-labelable">
-        <img src="https://badge.sh/packagist/version/BombenProdukt/laravel-labelable" alt="Version" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/laravel-labelable">
-        <img src="https://badge.sh/packagist/license/BombenProdukt/laravel-labelable" alt="License" />
-    </a>
-</p>
 
 ## About Laravel Labels
 
